@@ -1,6 +1,8 @@
 module.exports = {
   server: {},
-  dashboard: {},
+  dashboard: {
+    trustProxy: 1
+  },
   storage: {},
   push: {}
 }
